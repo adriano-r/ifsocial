@@ -1,7 +1,9 @@
 .sidebar {
     flex: 3;
     height: calc(100vh - 50px);
-    overflow-y: scroll;    
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -13,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #dadada
+    background-color: #dadada;
 }
 
 .sidebarWrapper {
@@ -52,18 +54,4 @@
     padding: 0;
     margin: 0;
     list-style: none;
-}
-
-.sidebarFriend {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.sidebarFriendImg {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
 }
