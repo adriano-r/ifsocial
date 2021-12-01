@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactsocial-dev-181740-authRole",
+      "UnauthRoleArn": "arn:aws:iam::166290009135:role/amplify-reactsocial-dev-181740-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::166290009135:role/amplify-reactsocial-dev-181740-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-reactsocial-dev-181740-deployment",
+      "UnauthRoleName": "amplify-reactsocial-dev-181740-unauthRole",
+      "StackName": "amplify-reactsocial-dev-181740",
+      "StackId": "arn:aws:cloudformation:sa-east-1:166290009135:stack/amplify-reactsocial-dev-181740/1f5c60b0-52ec-11ec-bee0-0261285f2f94",
+      "AmplifyAppId": "dnqdxaufnhct"
+    }
+  }
+}
